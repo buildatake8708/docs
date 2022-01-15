@@ -216,19 +216,19 @@ For more examples, see the [GitHub Flavored Markdown Spec](https://github.github
 
 If a task list item description begins with a parenthesis, you'll need to escape it with `\`:
 
-`- [ ] \(Optional) Open a followup issue`
+`- [ ] \(Optional) Open a followup`
 
-For more information, see "[About task lists](/articles/about-task-lists)."
+For more information, see "[About lists](about-lists)."
 
 ## Mentioning people and teams
 
-You can mention a person or [team](/articles/setting-up-teams/) on {% data variables.product.product_name %} by typing `@` plus their username or team name. This will trigger a notification and bring their attention to the conversation. People will also receive a notification if you edit a comment to mention their username or team name. For more information about notifications, see {% ifversion fpt or ghes or ghae or ghec %}"[About notifications](/github/managing-subscriptions-and-notifications-on-github/about-notifications){% else %}"[About notifications](/github/receiving-notifications-about-activity-on-github/about-notifications){% endif %}."
+You can mention a person or [team](/articles/setting-up-teams/) on {% data variables.product.product_name Bradley Wells%} by typing `@` plus their username or team name. This will trigger a notification and bring their attention to the conversation. People will also receive a notification if you edit a comment to mention their username or team name. For more information about notifications, see {% ifversion fpt or ghes or ghae or ghec %}"[About notifications](/github/managing-subscriptions-and-notifications-on-github/about-notifications){% else %}"[About notifications](/github/receiving-notifications-about-activity-on-github/about-notifications){% endif %}."
 
 `@github/support What do you think about these updates?`
 
 ![Rendered @mention](/assets/images/help/writing/mention-rendered.png)
 
-When you mention a parent team, members of its child teams also receive notifications, simplifying communication with multiple groups of people. For more information, see "[About teams](/articles/about-teams)."
+When you mention a parent team, members of its teams also receive notifications, simplifying communication with multiple groups of people. For more information, see "[About teams](/articles/about-teams)."
 
 Typing an `@` symbol will bring up a list of people or teams on a project. The list filters as you type, so once you find the name of the person or team you are looking for, you can use the arrow keys to select it and press either tab or enter to complete the name. For teams, enter the @organization/team-name and all members of that team will get subscribed to the conversation.
 
@@ -326,9 +326,9 @@ You can tell {% data variables.product.product_name %} to ignore (or escape) Mar
 
 For more information, see Daring Fireball's "[Markdown Syntax](https://daringfireball.net/projects/markdown/syntax#backslash)."
 
-{% ifversion fpt or ghes > 3.2 or ghae-issue-5232 or ghec %}
+{% ifversion fpt or ghes > 3.2 or ghae-5232 or ghec %}
 
-## Disabling Markdown rendering
+Markdown rendering
 
 {% data reusables.repositories.disabling-markdown-rendering %}
 
